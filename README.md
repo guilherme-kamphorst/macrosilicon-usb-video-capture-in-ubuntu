@@ -6,4 +6,6 @@ Plug it into your computer and type dmesg to check if its ID is the same as the 
 The .rules file must be placed in /etc/udev/rules.d/
 
 After that restart the service with the command
+
+
 udevadm control --reload-rules
